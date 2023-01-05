@@ -1,0 +1,7 @@
+## Cherry-pick 
+
+uses: 1. To copy commit of other branch to current branch
+      2. To copy content of commit of other branch to current branch using --no-commit flag
+
+This command is used when developer commit the changes to wrong branch, and 
+to fix it, he copies that commit to right branch
