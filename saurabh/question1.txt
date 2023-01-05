@@ -5,3 +5,18 @@ uses: 1. To copy commit of other branch to current branch
 
 This command is used when developer commit the changes to wrong branch, and 
 to fix it, he copies that commit to right branch
+
+
+Here, we have default master branch and new branch created as saurabh-nagre
+
+On branch saurabh-nagre, i have made 3 commits and 0 commits on master
+
+Now if i need 2nd commit from branch saurabh-nagre to master branch
+
+Steps:
+1.  Switch to the branch in which you need to copy changes 
+    -> git checkout master
+2. Use git log to copy the sha id from branch saurabh-nagre
+3. Now Cherry-pick the commit from saurabh-nagre to master
+    -> git cherry-pick <shaid>
+    

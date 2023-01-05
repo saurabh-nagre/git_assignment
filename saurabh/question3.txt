@@ -1,0 +1,12 @@
+## merge two commit
+
+steps:
+
+1. Move head prior to the commit from where the merge will be done
+    -> git checkout <commit-id>
+2. Use git rebase to merge current and previous commit
+    ->git rebase -i HEAD~2
+3. Interactive terminal will open, and update the second commmit selection from "pick" to "s"
+4. Now press ESC and then ctrl+S and then :wq
+5. This will present another Interactive terminal and put '#' before on of the commit msg and then save and quit terminal.
+6. This will result into successfull rebase message.

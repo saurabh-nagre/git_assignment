@@ -1,0 +1,15 @@
+## Multiple remote repos
+
+Usecase : 1. The application can go through various stages, so for each stage we can have remote repos, 
+        to avoid conflits between stages.
+        2. If we need to have Multiple server provider like aws and google cloud, and thus we can have to remote repos 
+        for different provider
+
+
+Steps:
+1. Add Multiple remote repos 
+    -> git remote add <remote-repo-name> <github-repo-url>
+
+    Note: use different <remote-repo-name>
+2. to push local commits to remote use
+    ->git push -u <remote-repo-name> <branch-name>

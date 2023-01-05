@@ -1,0 +1,13 @@
+## git push --force and --force-with-lease
+
+
+Use: if remote is ahead of local but still you need to push code, use -f or --force
+    else use --force-with-lease which is default also
+
+
+
+
+## Un stage file or files
+
+
+--> git reset <file-name or folder>
